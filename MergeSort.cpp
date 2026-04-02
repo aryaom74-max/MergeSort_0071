@@ -19,12 +19,12 @@ void input()
         }
         else
         {
-            cout << "\nMaksimal panjang array adalah 20";
+            cout << "\nMaksimal panjang array adal 20";
         }
     }
 
     cout << "\n-----------------------" << endl;
-    cout << "\nInputkan Isi element array" << endl;
+    cout << "\nInputkan Isi elemt aray" << endl;
     cout << "\n-----------------------" << endl;
 
     for (int i = 0; i < n; i++)
@@ -46,8 +46,8 @@ void mergeSort(int low, int high)
 
     // step 3
     // fungsi rekursi - memanggil diri sendiri
-    mergeSort(low, mid);      // step 3.a
-    mergeSort(mid + 1, high); // step 3.b
+    mergeSort(low, mi);      // step 3.a
+    mergeSort(mi + 1, high); // step 3.b
 
     // step 4
     int i = low;      // step 4.a
