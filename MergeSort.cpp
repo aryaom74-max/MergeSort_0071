@@ -35,7 +35,7 @@ void input()
 }
 
 // create function mergesort
-void mergeSort(int low, int high)
+void mergeSort(int l, int high)
 {
     if (low >= high) // step 1
     {
