@@ -19,7 +19,7 @@ void input()
         }
         else
         {
-            co << "\nMaksimal panjang array adalah 20";
+            cout << "\nMaksimal panjang array adalah 20";
         }
     }
 
