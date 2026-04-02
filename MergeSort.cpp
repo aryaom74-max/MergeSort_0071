@@ -24,7 +24,7 @@ void input()
     }
 
     cout << "\n-----------------------" << endl;
-    cout << "\nInputkan Isi elemt array" << endl;
+    cout << "\nInputkan Isi element array" << endl;
     cout << "\n-----------------------" << endl;
 
     for (int i = 0; i < n; i++)
