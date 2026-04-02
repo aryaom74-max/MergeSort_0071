@@ -29,7 +29,7 @@ void input()
 
     for (int i = 0; i < n; i++)
     {
-        co << "Array index ke- " << i << " : ";
+        cout << "Array index ke- " << i << " : ";
         cin >> arr[i];
     }
 }
