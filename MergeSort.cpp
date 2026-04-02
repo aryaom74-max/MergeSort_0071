@@ -19,7 +19,7 @@ void input()
         }
         else
         {
-            cout << "\nMaksimal panjang array adalah 20";
+            co << "\nMaksimal panjang array adalah 20";
         }
     }
 
@@ -29,7 +29,7 @@ void input()
 
     for (int i = 0; i < n; i++)
     {
-        cout << "Array index ke- " << i << " : ";
+        co << "Array index ke- " << i << " : ";
         cin >> arr[i];
     }
 }
@@ -95,7 +95,7 @@ void output()
     cout << "\nData setelah diurutkan (Merge Sort): ";
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << " ";
+        co << arr[i] << " ";
     }
     cout << endl;
 }
